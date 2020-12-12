@@ -56,13 +56,13 @@ h3 {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
-    font-family: serif;
-    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     
 }
 
 .btn-success {
-font-size:0.8rem;
+font-size:1rem;
 padding:2.5px;
 margin-right:5px;
 margin-left:5px;
@@ -96,4 +96,10 @@ textarea {
     font-weight: 300;
     color:gray;
     
+}
+
+.col-5{
+padding:10px;
+
+
 }
