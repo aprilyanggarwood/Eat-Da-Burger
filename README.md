@@ -37,36 +37,36 @@ The `MVC`（ `Model-View-Controll` ）design pattern was used to structure the s
 ## Directory-Structure
 
 The application repository is composed of the following directory structure which reflects the `MVC` design paradigm.
-.
-├── config
-│ ├── connection.js // MySQL database connection // JAWSDB_URL for deploy Heroku
-│ └── orm.js // Object-Relational-Mapper to query MySQL database
-│
-├── controllers
-│ └── burgers_controller.js // Express routes (router.get, post, put, delete )
-│
-├── db
-│ ├── schema.sql // MySQL db schema and seeds
-│ └── seeds.sql
-│
-├── models
-│ └── burger_models.js // Data models function with orm data for burger
-│
-├── public // Site assets and client-side logic
-│ └── assets
-│ ├── css
-│ │ └── burger_style.css
-│ └── js
-│ └── burger_page.js // jQUERY $.ajax().then() method
-│
-├── views // Handlebars templates
-│ ├── layouts
-│ │ └── main.handlebars // HTML with head content and CDN links (Bootstrap , jQUERY )
-| └── index.handlebars // HTML body template
-│
-├── package.json // NPM Packages with dependencies // NodeJS app metdata
-|
-├── server.js // Express server // app = express()
+
+- config
+  --connection.js // MySQL database connection // JAWSDB_URL for deploy Heroku
+  --orm.js // Object-Relational-Mapper to query MySQL database
+
+- controllers
+  --burgers_controller.js // Express routes (router.get, post, put, delete )
+
+- db
+  --schema.sql // MySQL db schema and seeds
+  --seeds.sql
+
+- models
+  --burger_models.js // Data models function with orm data for burger
+
+- public // Site assets and client-side logic
+  --assets
+  ---css
+  ----burger_style.css
+  ---js
+  ----burger_page.js // jQUERY $.ajax().then() method
+
+- views // Handlebars templates
+  --layouts
+  ---main.handlebars // HTML with head content and CDN links (Bootstrap , jQUERY )
+  --index.handlebars // HTML body template
+
+- package.json // NPM Packages with dependencies // NodeJS app metdata
+
+- server.js // Express server // app = express()
 
 ## Screenshots
 
