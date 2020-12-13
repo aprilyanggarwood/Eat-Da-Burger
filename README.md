@@ -74,7 +74,7 @@ The application repository is composed of the following directory structure whic
 
 ## Demo
 
-![DemoLink](./public/assets/img/Eat-Da-Burger.gif)
+![DemoLink](Eat-Da-Burger.gif)
 
 ## Deploy
 
