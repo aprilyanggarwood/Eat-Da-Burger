@@ -37,7 +37,7 @@ The `MVC`（ `Model-View-Controll` ）design pattern was used to structure the s
 ## Directory-Structure
 
 The application repository is composed of the following directory structure which reflects the `MVC` design paradigm.
-
+.
 ├── config
 │ ├── connection.js // MySQL database connection // JAWSDB_URL for deploy Heroku
 │ └── orm.js // Object-Relational-Mapper to query MySQL database
