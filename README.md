@@ -53,16 +53,18 @@ The application repository is composed of the following directory structure whic
   --burger_models.js // Data models function with orm data for burger
 
 - public // Site assets and client-side logic
-  --assets
-  ---css
-  ----burger_style.css
-  ---js
-  ----burger_page.js // jQUERY $.ajax().then() method
+
+  - assets
+    - css
+      - burger_style.css
+    - js
+      - burger_page.js // jQUERY $.ajax().then() method
 
 - views // Handlebars templates
-  --layouts
-  ---main.handlebars // HTML with head content and CDN links (Bootstrap , jQUERY )
-  --index.handlebars // HTML body template
+
+  - layouts
+    - main.handlebars // HTML with head content and CDN links (Bootstrap , jQUERY )
+  - index.handlebars // HTML body template
 
 - package.json // NPM Packages with dependencies // NodeJS app metdata
 
