@@ -15,7 +15,7 @@
                 {{!-- {{> burgers/burger-block devoured=false}} --}}
                 <h3>{{burger_name}}<span><button id="{{id}}"
                             class="btn btn-success devour-btn">Devour</button></span><span><button id="{{id}}"
-                            class="btn btn-success delete-btn">Delete</button></span></h3>
+                            class="btn btn-info delete-btn">Delete</button></span></h3>
                 {{/unless}}
                 {{/each}}
             </ul>
@@ -31,7 +31,7 @@
                 {{!-- {{> burgers/burger-block devoured=true}} --}}
                 <h3 burgerText>{{burger_name}}<span><button id="{{id}}"
                             class="btn btn-success undevour-btn">Undevour</button></span><span></span><button
-                        id="{{id}}" class="btn btn-success delete-btn">Delete</button></span>
+                        id="{{id}}" class="btn btn-info delete-btn">Delete</button></span>
                 </h3>
                 {{/if}}
                 {{/each}}
@@ -44,6 +44,6 @@
             <div class="form-group">
                 <textarea type="text" id="burger" name="name" placeholder="Burger Name"></textarea>
             </div>
-            <button type="submit" class="form-button btn-primary">Submit</button>
+            <button type="submit" class="form-button btn-danger">Add Burger</button>
         </form>
     </div>
